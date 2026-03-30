@@ -1,6 +1,6 @@
 ---
 name: menubar-app-creator
-description: Create single-file macOS menubar apps using SwiftUI. Use this skill whenever the user wants to build a menubar app, status bar app, system tray app, menu bar utility, or any macOS app that lives in the menu bar and shows information in a popover. Also trigger when users ask to monitor system stats, show live data in the menu bar, or build a small macOS utility that doesn't need a full window. This skill covers the complete architecture from data collection to polished UI, all in a single .swift file compiled without Xcode.
+description: TRIGGER whenever a user asks to build, create, or make anything that lives in the macOS menu bar / status bar / system tray. This includes menubar apps, menubar tools, menubar utilities, status bar indicators, or "a little thing that sits in my menu bar." Also trigger for macOS utilities that monitor or display live data (CPU, RAM, network, docker, files, APIs, temperature) as a menu bar icon or popover — even if the user doesn't say "menubar" explicitly but describes a small always-on macOS monitor. Contains required NSStatusItem + NSPopover boilerplate, SwiftUI component library, and single-file build pattern that cannot be reconstructed from memory. Do NOT trigger for iOS apps, Electron apps, VS Code extensions, terminal scripts, or launch agents.
 ---
 
 # Menubar App Creator

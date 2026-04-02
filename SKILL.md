@@ -1,5 +1,5 @@
 ---
-name: menubar-app-creator
+name: menubar
 description: TRIGGER whenever a user asks to build, create, or make anything that lives in the macOS menu bar / status bar / system tray. This includes menubar apps, menubar tools, menubar utilities, status bar indicators, or "a little thing that sits in my menu bar." Also trigger for macOS utilities that monitor or display live data (CPU, RAM, network, docker, files, APIs, temperature) as a menu bar icon or popover — even if the user doesn't say "menubar" explicitly but describes a small always-on macOS monitor. Contains required NSStatusItem + NSPopover boilerplate, SwiftUI component library, and single-file build pattern that cannot be reconstructed from memory. Do NOT trigger for iOS apps, Electron apps, VS Code extensions, terminal scripts, or launch agents.
 ---
 

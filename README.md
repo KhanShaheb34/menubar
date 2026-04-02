@@ -1,4 +1,6 @@
-# menubar
+# 💻 menubar
+
+[![skills.sh](https://img.shields.io/badge/skills.sh-menubar-blue)](https://skills.sh/khanshaheb34/menubar/menubar)
 
 A Claude Code skill for creating single-file macOS menubar apps with SwiftUI.
 
@@ -30,22 +32,24 @@ Ask Claude to build you a menubar app for:
 
 ## Install
 
+Run the following script to install the skill for your preferred AI agents:
+
 ```bash
 npx skills add KhanShaheb34/menubar
 ```
 
-Or manually clone and point Claude Code at the skill:
+Or manually clone and add to your Claude Code skills:
 
 ```bash
 git clone https://github.com/KhanShaheb34/menubar.git
 ```
 
-Then add the path to your Claude Code skills directory, or reference it directly:
+Then reference the skill in your settings:
 
-```
-# In .claude/settings.json
+```json
+// .claude/settings.json
 {
-  "skills": ["./path/to/menubar-app-creator"]
+  "skills": ["./path/to/menubar"]
 }
 ```
 
